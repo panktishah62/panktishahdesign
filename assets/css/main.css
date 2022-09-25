@@ -210,7 +210,7 @@ input, select, textarea {
 			color: inherit;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 1000px) {
 
 			h1 {
 				font-size: 1.5em;
@@ -2404,7 +2404,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 1000px) {
 
 				.image.main {
 					margin: 0 0 2em 0;
@@ -2996,6 +2996,24 @@ input, select, textarea {
 				#header nav {
 					right: 0.5em;
 					top: 0.5em;
+				}
+
+					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
+						background-size: 1.5em 1.5em;
+					}
+
+		}
+
+		@media screen and (max-width: 1000px) {
+
+			#header {
+				padding: 4em 0 2em 0 ;
+			}
+
+				#header nav {
+					right: 0.5em;
+					top: 0.5em;
+					left:0.5em
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
