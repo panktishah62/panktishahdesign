@@ -2994,8 +2994,9 @@ input, select, textarea {
 			}
 
 				#header nav {
-					right: 0.5em;
+					right: 1.5em;
 					top: 0.5em;
+					left:1.5em
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
@@ -3011,9 +3012,9 @@ input, select, textarea {
 			}
 
 				#header nav {
-					right: 0.5em;
+					right: 1.5em;
 					top: 0.5em;
-					left:0.5em
+					left:1.5em
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
